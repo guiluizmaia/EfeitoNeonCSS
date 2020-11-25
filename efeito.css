@@ -22,10 +22,11 @@ a{
 a:hover{
     color: #0C720C;
     background: #7FFF7F;
+    /*Aqui coloca a sombra para ter o efeito de neon*/
     box-shadow: 0 0 10px #7FFF7F, 0 0 40px #7FFF7F, 0 0 80px #7FFF7F;
     transition-delay: 1s;
 }
-
+/*Aqui é a movimentação da linha*/
 a span{
     position: absolute;
     display: block;
